@@ -29,7 +29,7 @@ RUN \
   && mkdir -p /opt \
   \
   && curl -J -L -o /tmp/web.zip \
-    "https://github.com/d8ahazard/FlexTV/archive/247d30d6c6737e517862710188b302d6a72a673c.zip" \
+    "https://github.com/JmactheAttack/FlexTV/archive/master.zip" \
   \
   && unzip -d /tmp /tmp/web.zip \
   && mv /tmp/FlexTV-*/* /opt \
